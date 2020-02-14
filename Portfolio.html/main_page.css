@@ -1,0 +1,62 @@
+*
+{
+  margin: 0px; 
+  padding: 0px; 
+}
+
+body
+{
+    background-image: url(download.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-nav{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu-nav li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu-nav li a{
+    text-decoration: none;
+    color: royalblue;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.menu-nav li a:hover{
+    background: salmon;
+    transition: s;
+    color: #000;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.row {
+    /* border: 1px solid #fff; */
+
+}
+
+.row img{
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 80px;
+
+}
+
+.h1{
+    justify-content: center;
+    color: mediumslateblue;
+}

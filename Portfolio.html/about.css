@@ -1,0 +1,36 @@
+.body{
+    background-image: url(download.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-nav{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu-nav li{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu-nav li a{
+    text-decoration: none;
+    color: rgb(228, 7, 248);
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.menu-nav li a:hover{
+    background: salmon;
+    transition: s;
+    color: #000;
+}
+
+.about{
+    text-align: center;
+}
